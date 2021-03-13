@@ -1,0 +1,27 @@
+@import '../../scss/mixin';
+
+$headerBg: #c0c0c0;
+
+body {
+  height: 100vh;
+}
+.app-header {
+  background-color: $headerBg;
+  @include header-s(50px);
+}
+
+.container {
+  @include container(80vw);
+}
+
+.box {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.box-list {
+  margin: 0 -10px;
+  .box {
+    margin: 10px;
+  }
+}

@@ -3,3 +3,9 @@
   height: $height;
   line-height: $height;
 }
+
+// 居中容器
+@mixin container($width) {
+  width: $width;
+  margin: auto;
+}

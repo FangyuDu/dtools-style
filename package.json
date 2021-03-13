@@ -1,15 +1,24 @@
 {
   "name": "dtools-style",
-  "version": "1.0.0",
-  "description": "集成个人通用的样式初始化设置、以及预编译方法",
+  "version": "0.0.1",
+  "description": "集成通用的样式、初始化设置以及预编译方法",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp",
+    "compiler": "gulp scss"
   },
   "keywords": [
-    "less;scss;css;style;normalize-css"
+    "less",
+    "scss",
+    "css",
+    "normalize-css"
   ],
   "author": "Fangyu Du",
   "email": "dfy30866@qq.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2",
+    "sass": "^1.32.8"
+  }
 }

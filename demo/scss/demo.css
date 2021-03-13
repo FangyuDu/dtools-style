@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+}
+
+.app-header {
+  background-color: #c0c0c0;
+  height: 50px;
+  line-height: 50px;
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+}
+
+.box {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.box-list {
+  margin: 0 -10px;
+}
+.box-list .box {
+  margin: 10px;
+}

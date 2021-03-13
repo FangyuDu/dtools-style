@@ -5,16 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>scss基础方法演示</title>
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="./scss/demo.css">
 </head>
 <body>
-  <div class="flex-col">
-    <div class="app-header"></div>
-    <main class="flex-1">
-      <div class="flex">
-        <div class="flex-1">flex-1</div>
-        <div class="flex-1">flex-1</div>
-        <div class="flex-1">flex-1</div>
+  <div class="app full flex-col">
+    <div class="app-header full">
+      <div class="container">
+        <span class="logo">网站LOGO</span>
       </div>
+    </div>
+    <main class="flex-1 container">
+      <div class="flex box-list">
+        <div class="flex-1 box">.flex-1</div>
+        <div class="flex-1 box">.flex-1</div>
+        <div class="flex-1 box">.flex-1</div>
+      </div>
+      <div class="clearfix">
+        <div class="left box">.left</div>
+        <div class="right box">.right</div>
+      </div>
+      <section>浮动换行</section>
     </main>
     <div class="app-footer"></div>
   </div>
