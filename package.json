@@ -1,0 +1,15 @@
+{
+  "name": "dtools-style",
+  "version": "1.0.0",
+  "description": "集成个人通用的样式初始化设置、以及预编译方法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "less;scss;css;style;normalize-css"
+  ],
+  "author": "Fangyu Du",
+  "email": "dfy30866@qq.com",
+  "license": "ISC"
+}

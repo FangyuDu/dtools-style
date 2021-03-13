@@ -1,0 +1,5 @@
+// 单行高度
+@mixin header-s($height) {
+  height: $height;
+  line-height: $height;
+}
